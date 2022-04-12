@@ -1,0 +1,7 @@
+<p>
+    {{ quote.authorName }}
+    {{ quote.submittedBy }}
+    {{ quote.like }} <button (click)="onLike(upvotes, quote)"><fa-icon [icon]="faHeart"></fa-icon></button>
+    {{ quote.dislike }} <button (click)="onDislike(downvotes, quote)"><fa-icon [icon]="faHeartCrack"></fa-icon></button>
+</p>
+<button (click)="quoteComplete(true)"><fa-icon [icon]="faTimes"></fa-icon></button>
