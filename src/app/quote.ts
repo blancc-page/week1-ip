@@ -4,8 +4,8 @@ export class Quote {
                 public quoteText: string,
                 public authorName: string,
                 public submittedBy: string,
-                public like: number,
-                public dislike: number,){
+                public like: number = 0,
+                public dislike: number = 0,){
         this.showDescription = false;
     }
     

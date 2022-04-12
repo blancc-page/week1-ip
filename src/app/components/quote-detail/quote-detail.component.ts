@@ -23,7 +23,7 @@ export class QuoteDetailComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  quoteComplete(complete: boolean){
+  quoteDelete(complete: boolean){
     this.isComplete.emit(complete);
   }
 
