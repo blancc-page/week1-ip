@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Indie+Flower&family=Playfair+Display&family=Rock+Salt&family=Square+Peg&display=swap');
+
+li{
+    font-family: 'Square Peg', cursive;
+    font-size: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+
+button.btn{
+    margin: 25px 0;
+    margin-left: 70px;
+    transform: translate(50%);
+}
