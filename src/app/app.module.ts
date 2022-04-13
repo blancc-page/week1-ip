@@ -5,12 +5,16 @@ import { AppComponent } from './app.component';
 import { QuoteComponent } from './components/quote/quote.component';
 import { QuoteDetailComponent } from './components/quote-detail/quote-detail.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { TimeCountPipe } from './time-count.pipe';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     QuoteComponent,
-    QuoteDetailComponent
+    QuoteDetailComponent,
+    TimeCountPipe,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,

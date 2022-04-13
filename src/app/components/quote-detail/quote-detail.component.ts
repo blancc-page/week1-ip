@@ -1,6 +1,7 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { faTimes, faHeartCrack, faHeart } from '@fortawesome/free-solid-svg-icons';
 import { Quote } from 'src/app/quote';
+import { TimeCountPipe } from 'src/app/time-count.pipe';
 
 @Component({
   selector: 'app-quote-detail',
