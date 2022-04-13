@@ -11,7 +11,7 @@ export class QuoteFormComponent implements OnInit {
   @Output() quoteAdd = new EventEmitter<{ quoteText: string, authorName: string, submittedBy: string }>();
 
   newQuote = new Quote(  
-    "\"\"",
+    "",
     "",
     "",
      0,
